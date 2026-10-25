@@ -1,0 +1,10 @@
+node_modules/
+_probe/
+_ref_*
+_scaffold*.py
+_fix_*.py
+_do_commit.py
+_commit_msg.txt
+*.log
+.DS_Store
+Thumbs.db

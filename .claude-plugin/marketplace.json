@@ -1,0 +1,62 @@
+{
+  "name": "kenhuang-mods",
+  "owner": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Ten practical Claude Code mods: cost, proof-of-done, handoff, deletions bin, recording, model router, secret sentry, peer reflect, session map, notifications."
+  },
+  "plugins": [
+    {
+      "name": "context-handoff",
+      "source": "./mods/context-handoff",
+      "description": "Warns near context limits and builds a /handoff snippet for a fresh session."
+    },
+    {
+      "name": "deletions-bin",
+      "source": "./mods/deletions-bin",
+      "description": "Intercepts destructive rm/unlink Bash and rewrites to move into .claude/deletions-bin."
+    },
+    {
+      "name": "done-notify",
+      "source": "./mods/done-notify",
+      "description": "Toasts when a long turn finishes; /notify-test fires a sample toast."
+    },
+    {
+      "name": "model-router",
+      "source": "./mods/model-router",
+      "description": "Routes Agent tool calls: simple chores to Haiku, heavy work stays on Sonnet/Opus."
+    },
+    {
+      "name": "peer-reflect",
+      "source": "./mods/peer-reflect",
+      "description": "After each turn, posts a short peer-review checklist above the prompt."
+    },
+    {
+      "name": "proof-of-done",
+      "source": "./mods/proof-of-done",
+      "description": "Requires real test/verification evidence before /claim-done is allowed."
+    },
+    {
+      "name": "recording-mode",
+      "source": "./mods/recording-mode",
+      "description": "Toggle /recording to mask emails and secret-looking tokens in the AbovePrompt banner."
+    },
+    {
+      "name": "secret-sentry",
+      "source": "./mods/secret-sentry",
+      "description": "Blocks Write/Edit tool calls that contain API keys, PEM blocks, or .env secrets."
+    },
+    {
+      "name": "session-map",
+      "source": "./mods/session-map",
+      "description": "Live map of files Claude Read this session; /files lists them."
+    },
+    {
+      "name": "usage-meter",
+      "source": "./mods/usage-meter",
+      "description": "Live token/cost band above the prompt, with /warm-cache keep-alive counter."
+    }
+  ]
+}

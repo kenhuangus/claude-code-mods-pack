@@ -1,0 +1,10 @@
+{
+  "name": "usage-meter",
+  "version": "0.1.0",
+  "description": "Live token/cost band above the prompt, with /warm-cache keep-alive counter.",
+  "author": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "types": "./types/index.d.ts"
+}

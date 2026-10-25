@@ -1,0 +1,10 @@
+{
+  "name": "model-router",
+  "version": "0.1.0",
+  "description": "Routes Agent tool calls: simple chores to Haiku, heavy work stays on Sonnet/Opus.",
+  "author": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "types": "./types/index.d.ts"
+}

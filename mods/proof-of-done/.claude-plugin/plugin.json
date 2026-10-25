@@ -1,0 +1,10 @@
+{
+  "name": "proof-of-done",
+  "version": "0.1.0",
+  "description": "Requires real test/verification evidence before /claim-done is allowed.",
+  "author": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "types": "./types/index.d.ts"
+}

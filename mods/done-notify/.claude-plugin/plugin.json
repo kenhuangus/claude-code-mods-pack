@@ -1,0 +1,10 @@
+{
+  "name": "done-notify",
+  "version": "0.1.0",
+  "description": "Toasts when a long turn finishes; /notify-test fires a sample toast.",
+  "author": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "types": "./types/index.d.ts"
+}

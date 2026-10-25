@@ -1,0 +1,10 @@
+{
+  "name": "context-handoff",
+  "version": "0.1.0",
+  "description": "Warns near context limits and builds a /handoff snippet for a fresh session.",
+  "author": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "types": "./types/index.d.ts"
+}

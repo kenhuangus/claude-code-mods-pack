@@ -1,0 +1,10 @@
+{
+  "name": "secret-sentry",
+  "version": "0.1.0",
+  "description": "Blocks Write/Edit tool calls that contain API keys, PEM blocks, or .env secrets.",
+  "author": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "types": "./types/index.d.ts"
+}

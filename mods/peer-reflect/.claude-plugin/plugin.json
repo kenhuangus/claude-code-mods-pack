@@ -1,0 +1,10 @@
+{
+  "name": "peer-reflect",
+  "version": "0.1.0",
+  "description": "After each turn, posts a short peer-review checklist above the prompt.",
+  "author": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "types": "./types/index.d.ts"
+}

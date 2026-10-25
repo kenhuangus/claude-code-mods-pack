@@ -1,0 +1,10 @@
+{
+  "name": "session-map",
+  "version": "0.1.0",
+  "description": "Live map of files Claude Read this session; /files lists them.",
+  "author": {
+    "name": "Ken Huang",
+    "email": "kenhuangus@users.noreply.github.com"
+  },
+  "types": "./types/index.d.ts"
+}
